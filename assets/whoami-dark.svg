@@ -18,5 +18,5 @@
     <text x="40" y="344"><tspan fill="#00E6C3" font-weight="700">Status:</tspan> Open to software engineering roles</text>
     <text x="40" y="375"><tspan fill="#00E6C3">$</tspan></text>
   </g>
-  <rect x="58" y="360" width="10" height="18" fill="#00E6C3"/>
+  <rect x="58" y="360" width="10" height="18" fill="#00E6C3"><animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" values="1;0;1"/></rect>
 </svg>
