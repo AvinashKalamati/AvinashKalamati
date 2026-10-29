@@ -14,10 +14,10 @@
 </a>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/avinashkalamati"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A0B0D?style=for-the-badge&logo=linkedin&logoColor=00E6C3"></a>
-  <a href="https://github.com/AvinashKalamati"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-0A0B0D?style=for-the-badge&logo=github&logoColor=00E6C3"></a>
-  <a href="https://www.linkedin.com/in/avinashkalamati"><img alt="Open to software engineering roles" src="https://img.shields.io/badge/Open_to-SWE_roles-0A0B0D?style=for-the-badge&logoColor=00E6C3"></a>
-  <a href="mailto:avinashkalamati@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email_me-0A0B0D?style=for-the-badge&logo=gmail&logoColor=00E6C3"></a>
+  <a href="https://www.linkedin.com/in/avinashkalamati"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A0B0D?style=for-the-badge&logo=linkedin&logoColor=FF8000"></a>
+  <a href="https://github.com/AvinashKalamati"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-0A0B0D?style=for-the-badge&logo=github&logoColor=FF8000"></a>
+  <a href="https://www.linkedin.com/in/avinashkalamati"><img alt="Open to software engineering roles" src="https://img.shields.io/badge/Open_to-SWE_roles-0A0B0D?style=for-the-badge&logoColor=FF8000"></a>
+  <a href="mailto:avinashkalamati@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email_me-0A0B0D?style=for-the-badge&logo=gmail&logoColor=FF8000"></a>
 </p>
 
 <p align="center">
@@ -46,10 +46,10 @@ I contribute to the Python and AI-infrastructure tools I build on — real fixes
 
 A new container module that runs Google's `fake-gcs-server` emulator in tests, so GCS code can be integration-tested without cloud credentials. Modeled on the repo's existing Datastore pattern, with docs and tests included.
 
-<img alt="Pull request 1145" src="https://img.shields.io/badge/PR-%231145-0A0B0D?style=flat-square&labelColor=0A0B0D&color=00E6C3">
-<img alt="Maintainer approved" src="https://img.shields.io/badge/review-approved-0A0B0D?style=flat-square&labelColor=0A0B0D&color=00E6C3">
-<img alt="Validated downstream" src="https://img.shields.io/badge/downstream-validated-0A0B0D?style=flat-square&labelColor=0A0B0D&color=00E6C3">
-<img alt="Tests included" src="https://img.shields.io/badge/tests-included-0A0B0D?style=flat-square&labelColor=0A0B0D&color=00E6C3">
+<img alt="Pull request 1145" src="https://img.shields.io/badge/PR-%231145-0A0B0D?style=flat-square&labelColor=0A0B0D&color=FF8000">
+<img alt="Maintainer approved" src="https://img.shields.io/badge/review-approved-0A0B0D?style=flat-square&labelColor=0A0B0D&color=FF8000">
+<img alt="Validated downstream" src="https://img.shields.io/badge/downstream-validated-0A0B0D?style=flat-square&labelColor=0A0B0D&color=FF8000">
+<img alt="Tests included" src="https://img.shields.io/badge/tests-included-0A0B0D?style=flat-square&labelColor=0A0B0D&color=FF8000">
 
 ```python
 from testcontainers.community.gcs import GcsContainer
@@ -145,12 +145,12 @@ flowchart LR
 -->
 
 <p>
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AvinashKalamati&show_icons=true&bg_color=0A0B0D&title_color=00E6C3&icon_color=00E6C3&text_color=9FB3C8&border_color=249381">
-  <img alt="GitHub contribution streak" src="https://streak-stats.demolab.com/?user=AvinashKalamati&background=0A0B0D&border=249381&stroke=249381&ring=00E6C3&fire=00E6C3&currStreakNum=EDEFF2&sideNums=EDEFF2&currStreakLabel=00E6C3&sideLabels=8B93A0&dates=5C6670">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AvinashKalamati&show_icons=true&bg_color=0A0B0D&title_color=FF8000&icon_color=FF8000&text_color=9FB3C8&border_color=2E2A26">
+  <img alt="GitHub contribution streak" src="https://streak-stats.demolab.com/?user=AvinashKalamati&background=0A0B0D&border=2E2A26&stroke=2E2A26&ring=FF8000&fire=FF8000&currStreakNum=EDEFF2&sideNums=EDEFF2&currStreakLabel=FF8000&sideLabels=8B93A0&dates=5C6670">
 </p>
 
 **Let's build systems that ship.** Open to software engineering roles — backend, distributed systems, AI infrastructure.
 
-<a href="https://www.linkedin.com/in/avinashkalamati"><img alt="Connect on LinkedIn" src="https://img.shields.io/badge/Connect-LinkedIn-0A0B0D?style=for-the-badge&logo=linkedin&logoColor=00E6C3"></a>
+<a href="https://www.linkedin.com/in/avinashkalamati"><img alt="Connect on LinkedIn" src="https://img.shields.io/badge/Connect-LinkedIn-0A0B0D?style=for-the-badge&logo=linkedin&logoColor=FF8000"></a>
 
-<img alt="Profile views" src="https://komarev.com/ghpvc/?username=AvinashKalamati&color=00735f&style=flat-square&label=profile+views">
+<img alt="Profile views" src="https://komarev.com/ghpvc/?username=AvinashKalamati&color=FF8000&style=flat-square&label=profile+views">
