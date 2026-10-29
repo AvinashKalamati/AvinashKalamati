@@ -35,7 +35,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/whoami-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/whoami-light.svg">
-  <img alt="Role: Software Development Engineer at Quadrant Technologies, Redmond WA. Focus: backend services, distributed systems, AI infrastructure. Stack: Python, Java, PostgreSQL, AWS, Docker, Kubernetes. Open source: testcontainers-python, Azure AI Search demo, llama-agents, LangGraph. Education: M.S. in Computer Science. Status: open to software engineering opportunities." src="assets/whoami-dark.svg" width="100%">
+  <img alt="Role: Software Development Engineer at Quadrant Technologies (client: Microsoft), Redmond WA. Focus: backend services, distributed systems, AI infrastructure. Stack: Python, Java, C#, TypeScript, Azure, AWS, Docker, Kubernetes. Open source: testcontainers-python, Azure AI Search demo, llama-agents, LangGraph. Education: M.S. in Data Science, Clarkson University, GPA 3.8. Status: open to software engineering opportunities." src="assets/whoami-dark.svg" width="100%">
 </picture>
 
 ## Open source
@@ -67,7 +67,7 @@ with GcsContainer() as gcs:
 | Project | What I shipped | Status |
 | --- | --- | --- |
 | [testcontainers-python](https://github.com/testcontainers/testcontainers-python/pull/1145) | New `GcsContainer` module (fake-gcs-server) with docs and tests | Maintainer-approved, awaiting CI/merge |
-| [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo/pull/3250) | Fix: search results without a reranker score were all filtered out on the free Azure AI Search tier | All 21 CI checks green, awaiting review |
+| [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo/pull/3250) | Fix: results without a reranker score were treated as 0 against the default 1.9 threshold, dropping every result when the semantic ranker was unavailable | All 21 CI checks green, awaiting review |
 | [llama-agents](https://github.com/run-llama/llama-agents/pull/838) | Root-cause fix for `PickleSerializer` returning wrong values for JSON payloads, with regression tests | Open, awaiting review |
 | [langgraph](https://github.com/langchain-ai/langgraph/issues/9475) | Fix in progress: Functional API resume re-runs a task whose exception was caught instead of replaying its recorded outcome | Claimed, building |
 
@@ -101,27 +101,38 @@ flowchart LR
 
 ## Experience
 
-**Software Development Engineer · Quadrant Technologies · *Jun 2025 – present · Redmond, WA***
+**Software Development Engineer · Quadrant Technologies (client: Microsoft) · *Jun 2025 – present · Redmond, WA***
 
-- Backend engineering with Python and Java: REST APIs, PostgreSQL, and distributed services on AWS.
-- Ship and operate containerized services with Docker, Kubernetes and Jenkins CI/CD.
-- Build on LLM infrastructure — retrieval systems and AI-backed services.
+- Built RAG-based AI agents on Azure AI Foundry with LangGraph and MCP, retrieving from Microsoft Fabric and Azure AI Search — cut manual lookup time 30% for the team using them.
+- Own a reusable Python/Airflow framework running 70+ production workflows on PostgreSQL, MongoDB and cloud storage — design docs, design reviews, on-call, incident response.
+- Drove C#/.NET compatibility tooling that catches Windows runtime regressions across 23 device configurations — runtime issues down 27% (300 → 219/month), root-caused via Event Logs and Win32 API traces.
+- Automated DEV/UAT/PROD environment sync and database refresh — drift defects down 40% per release; SonarQube/Bandit quality gates and Grafana alerts cut deployment errors 25%.
 
 **Co-founder · Doppular**
 
 - Co-founded Doppular, a social app that matches you with people around the world who look like you — *alike in looks, unique in life.*
+- Own the multi-tier distributed backend (Node.js, TypeScript, MongoDB, Redis, BullMQ) sustaining 100K+ API requests/day, plus a Python FastAPI + Milvus vector-search microservice running sub-200ms, on AWS with Docker and Kubernetes.
 
-**Education:** M.S. in Computer Science
+**Software Engineer Intern · Skipline · *May 2024 – May 2025 · Remote***
+
+- Owned telemetry ingestion services processing 1M+ daily records; validation cut ingestion failures 30%, and date-partitioned PySpark/SQL pipelines cut processing time 20%.
+
+**Research Assistant · Clarkson University · *Sep 2023 – May 2024***
+
+- Built PyTorch/scikit-learn pipelines for satellite and UAV multispectral imagery (up to 98.4% balanced accuracy); published in *Machine Learning with Applications*.
+
+**Education:** M.S. in Data Science, Clarkson University (GPA 3.8) · B.Tech in Computer Science, JNTUK
+
 ## Stack
 
 | Layer | Tools |
 | --- | --- |
-| **Languages** | Python · Java · SQL |
-| **Backend** | REST APIs · PostgreSQL · distributed systems · microservices |
-| **Cloud & DevOps** | AWS · Docker · Kubernetes · Jenkins · Git · GitHub Actions · Linux |
-| **AI & LLM** | LangChain · LangGraph · LlamaIndex · Azure AI Search · RAG systems |
+| **Languages** | Python · Java · C# · C++ · TypeScript · SQL |
+| **Backend & Data** | REST APIs · Microservices · Kafka · Redis · PostgreSQL · MongoDB · Apache Airflow · Node.js · FastAPI |
+| **Cloud & DevOps** | AWS (EC2, S3, Lambda, CloudFront) · Azure DevOps · Docker · Kubernetes · Grafana · CI/CD · Git |
+| **AI & Agents** | RAG · AI Agents · MCP · LangGraph · Azure AI Foundry · Azure AI Search · GenAI |
 
-<img alt="Python, Java, PostgreSQL, AWS, Docker, Kubernetes, Jenkins, Git, GitHub Actions, Linux" src="https://skillicons.dev/icons?i=python,java,postgres,aws,docker,kubernetes,jenkins,git,githubactions,linux&perline=10&theme=dark">
+<img alt="Python, Java, C#, C++, TypeScript, Node.js, FastAPI, PostgreSQL, MongoDB, Redis, Kafka, AWS, Azure, Docker, Kubernetes, Git" src="https://skillicons.dev/icons?i=python,java,cs,cpp,ts,nodejs,fastapi,postgres,mongodb,redis,kafka,aws,azure,docker,kubernetes,git&perline=8&theme=dark">
 
 ## Activity
 
