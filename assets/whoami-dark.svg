@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+  <rect width="1200" height="330" fill="#0A0B0D"/>
+  <rect width="6" height="330" fill="#00E6C3"/>
+  <text x="48" y="58" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">ROLE</text>
+  <text x="210" y="58" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">Software Development Engineer · Quadrant Technologies · Redmond, WA</text>
+  <text x="48" y="106" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">FOCUS</text>
+  <text x="210" y="106" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">Backend services · distributed systems · AI / LLM infrastructure</text>
+  <text x="48" y="154" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">STACK</text>
+  <text x="210" y="154" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">Python · Java · PostgreSQL · AWS · Docker · Kubernetes · Jenkins</text>
+  <text x="48" y="202" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">OPEN SOURCE</text>
+  <text x="210" y="202" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">testcontainers-python · Azure AI Search demo · llama-agents · LangGraph</text>
+  <text x="48" y="250" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">EDUCATION</text>
+  <text x="210" y="250" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">M.S., Computer Science</text>
+  <text x="48" y="298" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">STATUS</text>
+  <text x="210" y="298" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">Open to software engineering opportunities</text>
+</svg>
