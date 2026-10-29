@@ -1,22 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="396" viewBox="0 0 1200 396">
-  <rect x="8" y="8" width="1184" height="380" rx="16" fill="#FFFFFF" stroke="#D8D2C0" stroke-width="2"/>
-  <path d="M8 24 a16 16 0 0 1 16 -16 h1152 a16 16 0 0 1 16 16 v30 h-1184 z" fill="#F1EDE3"/>
-  <line x1="8" y1="54" x2="1192" y2="54" stroke="#D8D2C0" stroke-width="2"/>
+  <defs>
+    <linearGradient id="towH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E2E30"/>
+      <stop offset="0.5" stop-color="#17171A"/>
+      <stop offset="1" stop-color="#060607"/>
+    </linearGradient>
+    <linearGradient id="towV" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2E2E30"/>
+      <stop offset="0.5" stop-color="#17171A"/>
+      <stop offset="1" stop-color="#060607"/>
+    </linearGradient>
+    <pattern id="carbon" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#0A0A0B"/>
+      <rect x="0" y="0" width="6" height="6" fill="url(#towH)"/>
+      <rect x="6" y="6" width="6" height="6" fill="url(#towH)"/>
+      <rect x="6" y="0" width="6" height="6" fill="url(#towV)"/>
+      <rect x="0" y="6" width="6" height="6" fill="url(#towV)"/>
+    </pattern>
+  </defs>
+  <rect x="8" y="8" width="1184" height="380" rx="16" fill="#0B0B0C" stroke="#2E2A26" stroke-width="2"/>
+  <path d="M8 24 a16 16 0 0 1 16 -16 h1152 a16 16 0 0 1 16 16 v30 h-1184 z" fill="#141311"/>
+  <path d="M8 24 a16 16 0 0 1 16 -16 h1152 a16 16 0 0 1 16 16 v30 h-1184 z" fill="url(#carbon)" opacity="0.45"/>
+  <line x1="8" y1="54" x2="1192" y2="54" stroke="#2E2A26" stroke-width="2"/>
   <circle cx="38" cy="31" r="7" fill="#FF5F57"/>
   <circle cx="64" cy="31" r="7" fill="#FEBC2E"/>
   <circle cx="90" cy="31" r="7" fill="#28C840"/>
-  <text x="600" y="37" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="15" fill="#8A8F85">avinash@seattle — zsh — 100×28</text>
-  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#1C2521">
-    <text x="40" y="96"><tspan fill="#0B6B4F">$</tspan> neofetch --user avinash</text>
+  <text x="600" y="37" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="15" fill="#7A7A78">avinash@seattle — zsh — 100×28</text>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#EDEDEA">
+    <text x="40" y="96"><tspan fill="#FF8000">$</tspan> neofetch --user avinash</text>
     <text x="40" y="127" font-weight="700">avinash@seattle</text>
-    <text x="40" y="158" fill="#8A8F85">---------------</text>
-    <text x="40" y="189"><tspan fill="#0B6B4F" font-weight="700">Role:</tspan> SDE @ Quadrant Technologies (client: Microsoft)</text>
-    <text x="40" y="220"><tspan fill="#0B6B4F" font-weight="700">Focus:</tspan> Backend systems · AI agents · Distributed systems</text>
-    <text x="40" y="251"><tspan fill="#0B6B4F" font-weight="700">Stack:</tspan> Python · Java · C# · TypeScript · Azure · AWS · K8s</text>
-    <text x="40" y="282"><tspan fill="#0B6B4F" font-weight="700">OSS:</tspan> testcontainers · Azure demo · llama-agents · langgraph</text>
-    <text x="40" y="313"><tspan fill="#0B6B4F" font-weight="700">Education:</tspan> M.S. Data Science, Clarkson University (GPA 3.8)</text>
-    <text x="40" y="344"><tspan fill="#0B6B4F" font-weight="700">Status:</tspan> Open to software engineering roles</text>
-    <text x="40" y="375"><tspan fill="#0B6B4F">$</tspan></text>
+    <text x="40" y="158" fill="#6E6E6E">---------------</text>
+    <text x="40" y="189"><tspan fill="#FF8000" font-weight="700">Role:</tspan> SDE @ Quadrant Technologies (client: Microsoft)</text>
+    <text x="40" y="220"><tspan fill="#FF8000" font-weight="700">Focus:</tspan> Backend systems · AI agents · Distributed systems</text>
+    <text x="40" y="251"><tspan fill="#FF8000" font-weight="700">Stack:</tspan> Python · Java · C# · TypeScript · Azure · AWS · K8s</text>
+    <text x="40" y="282"><tspan fill="#FF8000" font-weight="700">OSS:</tspan> testcontainers · Azure demo · llama-agents · langgraph</text>
+    <text x="40" y="313"><tspan fill="#FF8000" font-weight="700">Education:</tspan> M.S. Data Science, Clarkson University (GPA 3.8)</text>
+    <text x="40" y="344"><tspan fill="#FF8000" font-weight="700">Status:</tspan> Open to software engineering roles</text>
+    <text x="40" y="375"><tspan fill="#FF8000">$</tspan></text>
   </g>
-  <rect x="58" y="360" width="10" height="18" fill="#0B6B4F"><animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" values="1;0;1"/></rect>
+  <rect x="58" y="360" width="10" height="18" fill="#FF8000"><animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" values="1;0;1"/></rect>
 </svg>
