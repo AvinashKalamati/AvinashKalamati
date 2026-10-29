@@ -1,8 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
-  <rect width="1200" height="300" fill="#0A0B0D"/>
-  <rect width="1200" height="6" fill="#00E6C3"/>
-  <text x="56" y="118" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#F2F5F9">Avinash Kalamati</text>
-  <text x="56" y="168" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#00E6C3">Software Development Engineer · Backend &amp; AI Infrastructure</text>
-  <text x="56" y="216" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" fill="#9FB3C8">I build backend services and LLM systems — and contribute to the open-source tools behind them.</text>
-  <text x="56" y="262" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#5C6670">Redmond, WA · github.com/AvinashKalamati</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+  <rect x="8" y="8" width="1184" height="364" rx="24" fill="#0A0B0D" stroke="#22303A" stroke-width="2"/>
+  <text x="48" y="58" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#5C6670">~/avinashkalamati</text>
+  <text x="1152" y="58" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#5C6670">REDMOND, WA · UTC−07:00</text>
+  <text x="48" y="140" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="54" font-weight="700" fill="#F5F7FA">Avinash Kalamati</text>
+  <text x="48" y="182" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="20" fill="#00E6C3">Software Development Engineer · Backend &amp; AI Infra</text>
+  <text x="48" y="226" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="18" fill="#A9BAC9">I build RAG agents and backend systems that</text>
+  <text x="48" y="252" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="18" fill="#A9BAC9">run in production — and the OSS tools behind them.</text>
+  <rect x="48" y="272" width="452" height="42" rx="8" fill="#0E1A16" stroke="#1D3A30" stroke-width="1.5"/>
+  <text x="66" y="299" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="16" fill="#7FE7CF">$ building RAG agents &amp; backend systems</text>
+  <rect x="472" y="284" width="10" height="18" fill="#00E6C3"/>
+  <circle cx="56" cy="340" r="6" fill="#2FBF71"/>
+  <text x="74" y="346" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="16" fill="#A9BAC9">SDE @ Quadrant Technologies (client: Microsoft) · open to SWE roles</text>
+  <g stroke="#2A3B45" stroke-width="1.5">
+    <line x1="985" y1="190" x2="985" y2="84"/>
+    <line x1="985" y1="190" x2="862" y2="118"/>
+    <line x1="985" y1="190" x2="1108" y2="118"/>
+    <line x1="985" y1="190" x2="862" y2="262"/>
+    <line x1="985" y1="190" x2="1108" y2="262"/>
+    <line x1="985" y1="190" x2="985" y2="296"/>
+  </g>
+  <circle cx="985" cy="190" r="94" fill="none" stroke="#2A3B45" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#C9D6DF">
+    <rect x="933" y="66" width="104" height="36" rx="9" fill="#10161B" stroke="#2A3B45" stroke-width="1.5"/>
+    <text x="985" y="89" text-anchor="middle">APIs</text>
+    <rect x="810" y="100" width="104" height="36" rx="9" fill="#10161B" stroke="#2A3B45" stroke-width="1.5"/>
+    <text x="862" y="123" text-anchor="middle">RAG</text>
+    <rect x="1056" y="100" width="104" height="36" rx="9" fill="#10161B" stroke="#2A3B45" stroke-width="1.5"/>
+    <text x="1108" y="123" text-anchor="middle">DATA</text>
+    <rect x="810" y="244" width="104" height="36" rx="9" fill="#10161B" stroke="#2A3B45" stroke-width="1.5"/>
+    <text x="862" y="267" text-anchor="middle">AGENTS</text>
+    <rect x="1056" y="244" width="104" height="36" rx="9" fill="#10161B" stroke="#2A3B45" stroke-width="1.5"/>
+    <text x="1108" y="267" text-anchor="middle">CLOUD</text>
+    <rect x="933" y="278" width="104" height="36" rx="9" fill="#10161B" stroke="#2A3B45" stroke-width="1.5"/>
+    <text x="985" y="301" text-anchor="middle">QUEUES</text>
+  </g>
+  <rect x="905" y="166" width="160" height="48" rx="10" fill="#10161B" stroke="#00E6C3" stroke-width="2"/>
+  <text x="985" y="196" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#00E6C3">BACKEND</text>
 </svg>
