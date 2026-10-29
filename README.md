@@ -17,7 +17,7 @@
   <a href="https://www.linkedin.com/in/avinashkalamati"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A0B0D?style=for-the-badge&logo=linkedin&logoColor=00E6C3"></a>
   <a href="https://github.com/AvinashKalamati"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-0A0B0D?style=for-the-badge&logo=github&logoColor=00E6C3"></a>
   <a href="https://www.linkedin.com/in/avinashkalamati"><img alt="Open to software engineering roles" src="https://img.shields.io/badge/Open_to-SWE_roles-0A0B0D?style=for-the-badge&logoColor=00E6C3"></a>
-  <a href="mailto:avinashkalamati@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email_me-0A0B0D?style=for-the-badge&logo=gmail&logoColor=00E6C3"></a>a>
+  <a href="mailto:avinashkalamati@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email_me-0A0B0D?style=for-the-badge&logo=gmail&logoColor=00E6C3"></a>
 </p>
 
 <p align="center">
