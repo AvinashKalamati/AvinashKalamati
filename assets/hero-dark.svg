@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" fill="#0A0B0D"/>
+  <rect width="1200" height="6" fill="#00E6C3"/>
+  <text x="56" y="118" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#F2F5F9">Avinash Kalamati</text>
+  <text x="56" y="168" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#00E6C3">Software Development Engineer · Backend &amp; AI Infrastructure</text>
+  <text x="56" y="216" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" fill="#9FB3C8">I build backend services and LLM systems — and contribute to the open-source tools behind them.</text>
+  <text x="56" y="262" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#5C6670">Redmond, WA · github.com/AvinashKalamati</text>
+</svg>
