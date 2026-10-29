@@ -17,7 +17,7 @@
   <a href="https://www.linkedin.com/in/avinashkalamati"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A0B0D?style=for-the-badge&logo=linkedin&logoColor=00E6C3"></a>
   <a href="https://github.com/AvinashKalamati"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-0A0B0D?style=for-the-badge&logo=github&logoColor=00E6C3"></a>
   <a href="https://www.linkedin.com/in/avinashkalamati"><img alt="Open to software engineering roles" src="https://img.shields.io/badge/Open_to-SWE_roles-0A0B0D?style=for-the-badge&logoColor=00E6C3"></a>
-  <!-- Add an email badge here if you want one: https://img.shields.io/badge/Email_me-0A0B0D?style=for-the-badge&logo=gmail&logoColor=00E6C3 -->
+  <a href="mailto:avinashkalamati@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email_me-0A0B0D?style=for-the-badge&logo=gmail&logoColor=00E6C3"></a>a>
 </p>
 
 <p align="center">
@@ -109,10 +109,9 @@ flowchart LR
 
 **Co-founder · Doppular**
 
-- Co-founded and built product outside the day job.
+- Co-founded Doppular, a social app that matches you with people around the world who look like you — *alike in looks, unique in life.*
 
 **Education:** M.S. in Computer Science
-
 ## Stack
 
 | Layer | Tools |
