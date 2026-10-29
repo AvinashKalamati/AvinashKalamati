@@ -1,96 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
   <defs>
     <clipPath id="typeclip">
-      <rect x="48" y="272" height="42" width="0">
+      <rect x="48" y="302" height="44" width="0">
         <animate attributeName="width" calcMode="discrete" dur="2.6s" fill="freeze" values="0;10;19;29;39;48;58;67;77;86;96;106;115;125;134;144;154;163;173;182;192;202;211;221;230;240;250;259;269;278;288;298;307;317;326;336;346;355;365;375"/>
       </rect>
     </clipPath>
+    <linearGradient id="towH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E2E30"/>
+      <stop offset="0.5" stop-color="#17171A"/>
+      <stop offset="1" stop-color="#060607"/>
+    </linearGradient>
+    <linearGradient id="towV" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2E2E30"/>
+      <stop offset="0.5" stop-color="#17171A"/>
+      <stop offset="1" stop-color="#060607"/>
+    </linearGradient>
+    <pattern id="carbon" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#0A0A0B"/>
+      <rect x="0" y="0" width="6" height="6" fill="url(#towH)"/>
+      <rect x="6" y="6" width="6" height="6" fill="url(#towH)"/>
+      <rect x="6" y="0" width="6" height="6" fill="url(#towV)"/>
+      <rect x="0" y="6" width="6" height="6" fill="url(#towV)"/>
+    </pattern>
   </defs>
-  <rect x="8" y="8" width="1184" height="364" rx="24" fill="#F7F3EC" stroke="#E0D8C4" stroke-width="2"/>
-  <text x="48" y="58" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#8A8F85">~/avinashkalamati</text>
-  <text x="1152" y="58" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#8A8F85">REDMOND, WA · UTC−07:00</text>
-  <text x="48" y="140" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="54" font-weight="700" fill="#101418">Avinash Kalamati</text>
-  <text x="48" y="182" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="20" fill="#0B6B4F">Software Development Engineer · Backend &amp; AI Infra</text>
-  <text x="48" y="226" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="18" fill="#3E4A42">I build RAG agents and backend systems that</text>
-  <text x="48" y="252" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="18" fill="#3E4A42">run in production — and the OSS tools behind them.</text>
-  <rect x="48" y="272" width="452" height="42" rx="8" fill="#E9F2E7" stroke="#C9DCC4" stroke-width="1.5"/>
+  <rect x="8" y="8" width="1184" height="424" rx="24" fill="#070708" stroke="#2E2A26" stroke-width="2"/>
+  <rect x="8" y="8" width="1184" height="424" rx="24" fill="url(#carbon)" opacity="0.55"/>
+  <text x="48" y="64" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#7A7A78">~/avinashkalamati</text>
+  <text x="1152" y="64" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#7A7A78">REDMOND, WA · UTC−07:00</text>
+  <text x="48" y="156" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="54" font-weight="700" fill="#FFFFFF">Avinash Kalamati</text>
+  <text x="48" y="202" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="20" fill="#FF8000">Software Development Engineer · Backend &amp; AI Infra</text>
+  <text x="48" y="250" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="18" fill="#C9C9C7">I build RAG agents and backend systems that</text>
+  <text x="48" y="278" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="18" fill="#C9C9C7">run in production — and the OSS tools behind them.</text>
+  <rect x="48" y="302" width="452" height="44" rx="8" fill="#140E08" stroke="#4A2E12" stroke-width="1.5"/>
   <g clip-path="url(#typeclip)">
-    <text x="66" y="299" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="16" fill="#14532D">$ building RAG agents &amp; backend systems</text>
+    <text x="66" y="330" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="16" fill="#FFB066">$ building RAG agents &amp; backend systems</text>
   </g>
-  <rect x="69" y="284" width="10" height="18" fill="#101418">
+  <rect x="69" y="315" width="10" height="18" fill="#FF8000">
     <animate attributeName="x" calcMode="discrete" dur="2.6s" fill="freeze" values="69;79;88;98;108;117;127;137;146;156;166;175;185;195;204;214;224;233;243;253;262;272;282;291;301;311;320;330;340;349;359;369;378;388;398;407;417;427;436;446"/>
     <animate attributeName="opacity" begin="2.6s" dur="1.1s" repeatCount="indefinite" values="1;0;1"/>
   </rect>
-  <circle cx="56" cy="340" r="6" fill="none" stroke="#2FBF71" stroke-opacity="0.7">
+  <circle cx="56" cy="384" r="6" fill="none" stroke="#FF8000" stroke-opacity="0.7">
     <animate attributeName="r" dur="2s" repeatCount="indefinite" values="6;13"/>
     <animate attributeName="stroke-opacity" dur="2s" repeatCount="indefinite" values="0.7;0"/>
   </circle>
-  <circle cx="56" cy="340" r="6" fill="#2FBF71">
+  <circle cx="56" cy="384" r="6" fill="#FF8000">
     <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="1;0.4;1"/>
   </circle>
-  <text x="74" y="346" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="16" fill="#3E4A42">SDE @ Quadrant Technologies (client: Microsoft) · open to SWE roles</text>
-  <g stroke="#B9B29A" stroke-width="1.5">
-    <line x1="985" y1="190" x2="985" y2="84"/>
-    <line x1="985" y1="190" x2="862" y2="118"/>
-    <line x1="985" y1="190" x2="1108" y2="118"/>
-    <line x1="985" y1="190" x2="862" y2="262"/>
-    <line x1="985" y1="190" x2="1108" y2="262"/>
-    <line x1="985" y1="190" x2="985" y2="296"/>
+  <text x="74" y="390" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="16" fill="#C9C9C7">SDE @ Quadrant Technologies (client: Microsoft) · open to SWE roles</text>
+  <g stroke="#3A332C" stroke-width="1.5">
+    <line x1="985" y1="225" x2="985" y2="108"/>
+    <line x1="985" y1="225" x2="862" y2="140"/>
+    <line x1="985" y1="225" x2="1108" y2="140"/>
+    <line x1="985" y1="225" x2="862" y2="310"/>
+    <line x1="985" y1="225" x2="1108" y2="310"/>
+    <line x1="985" y1="225" x2="985" y2="342"/>
   </g>
   <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 985 190" to="360 985 190" dur="48s" repeatCount="indefinite"/>
-    <circle cx="985" cy="190" r="94" fill="none" stroke="#C9C2AC" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 985 225" to="360 985 225" dur="48s" repeatCount="indefinite"/>
+    <circle cx="985" cy="225" r="100" fill="none" stroke="#4A3A28" stroke-width="1.5" stroke-dasharray="4 6"/>
   </g>
-  <g fill="#0B6B4F">
+  <g fill="#FF8000">
     <circle r="4" opacity="0">
-      <animateMotion dur="3s" begin="0s" repeatCount="indefinite" path="M985 102 L985 170"/>
+      <animateMotion dur="3s" begin="0s" repeatCount="indefinite" path="M985 126 L985 205"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="3s" begin="0s" repeatCount="indefinite"/>
     </circle>
     <circle r="4" opacity="0">
-      <animateMotion dur="3s" begin="0.5s" repeatCount="indefinite" path="M914 118 L932 166"/>
+      <animateMotion dur="3s" begin="0.5s" repeatCount="indefinite" path="M914 140 L928 198"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="3s" begin="0.5s" repeatCount="indefinite"/>
     </circle>
     <circle r="4" opacity="0">
-      <animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M1056 118 L1038 166"/>
+      <animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M1056 140 L1042 198"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="3s" begin="1s" repeatCount="indefinite"/>
     </circle>
     <circle r="4" opacity="0">
-      <animateMotion dur="3s" begin="1.5s" repeatCount="indefinite" path="M914 262 L932 214"/>
+      <animateMotion dur="3s" begin="1.5s" repeatCount="indefinite" path="M914 310 L928 252"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="3s" begin="1.5s" repeatCount="indefinite"/>
     </circle>
     <circle r="4" opacity="0">
-      <animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M1056 262 L1038 214"/>
+      <animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M1056 310 L1042 252"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="3s" begin="2s" repeatCount="indefinite"/>
     </circle>
     <circle r="4" opacity="0">
-      <animateMotion dur="3s" begin="2.5s" repeatCount="indefinite" path="M985 278 L985 212"/>
+      <animateMotion dur="3s" begin="2.5s" repeatCount="indefinite" path="M985 324 L985 247"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="3s" begin="2.5s" repeatCount="indefinite"/>
     </circle>
     <circle r="4" opacity="0">
-      <animateMotion dur="3.6s" begin="0.8s" repeatCount="indefinite" path="M985 170 L985 102"/>
+      <animateMotion dur="3.6s" begin="0.8s" repeatCount="indefinite" path="M985 205 L985 126"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="3.6s" begin="0.8s" repeatCount="indefinite"/>
     </circle>
     <circle r="4" opacity="0">
-      <animateMotion dur="3.6s" begin="2.2s" repeatCount="indefinite" path="M932 214 L914 262"/>
+      <animateMotion dur="3.6s" begin="2.2s" repeatCount="indefinite" path="M928 252 L914 310"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="3.6s" begin="2.2s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#26312B">
-    <rect x="933" y="66" width="104" height="36" rx="9" fill="#FFFFFF" stroke="#CFC8B4" stroke-width="1.5"/>
-    <text x="985" y="89" text-anchor="middle">APIs</text>
-    <rect x="810" y="100" width="104" height="36" rx="9" fill="#FFFFFF" stroke="#CFC8B4" stroke-width="1.5"/>
-    <text x="862" y="123" text-anchor="middle">RAG</text>
-    <rect x="1056" y="100" width="104" height="36" rx="9" fill="#FFFFFF" stroke="#CFC8B4" stroke-width="1.5"/>
-    <text x="1108" y="123" text-anchor="middle">DATA</text>
-    <rect x="810" y="244" width="104" height="36" rx="9" fill="#FFFFFF" stroke="#CFC8B4" stroke-width="1.5"/>
-    <text x="862" y="267" text-anchor="middle">AGENTS</text>
-    <rect x="1056" y="244" width="104" height="36" rx="9" fill="#FFFFFF" stroke="#CFC8B4" stroke-width="1.5"/>
-    <text x="1108" y="267" text-anchor="middle">CLOUD</text>
-    <rect x="933" y="278" width="104" height="36" rx="9" fill="#FFFFFF" stroke="#CFC8B4" stroke-width="1.5"/>
-    <text x="985" y="301" text-anchor="middle">QUEUES</text>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#E8E4DE">
+    <rect x="933" y="90" width="104" height="36" rx="9" fill="#101010" stroke="#3A332C" stroke-width="1.5"/>
+    <text x="985" y="113" text-anchor="middle">APIs</text>
+    <rect x="810" y="122" width="104" height="36" rx="9" fill="#101010" stroke="#3A332C" stroke-width="1.5"/>
+    <text x="862" y="145" text-anchor="middle">RAG</text>
+    <rect x="1056" y="122" width="104" height="36" rx="9" fill="#101010" stroke="#3A332C" stroke-width="1.5"/>
+    <text x="1108" y="145" text-anchor="middle">DATA</text>
+    <rect x="810" y="292" width="104" height="36" rx="9" fill="#101010" stroke="#3A332C" stroke-width="1.5"/>
+    <text x="862" y="315" text-anchor="middle">AGENTS</text>
+    <rect x="1056" y="292" width="104" height="36" rx="9" fill="#101010" stroke="#3A332C" stroke-width="1.5"/>
+    <text x="1108" y="315" text-anchor="middle">CLOUD</text>
+    <rect x="933" y="324" width="104" height="36" rx="9" fill="#101010" stroke="#3A332C" stroke-width="1.5"/>
+    <text x="985" y="347" text-anchor="middle">QUEUES</text>
   </g>
-  <rect x="905" y="166" width="160" height="48" rx="10" fill="#FFFFFF" stroke="#101418" stroke-width="2">
-    <animate attributeName="stroke-opacity" dur="2.8s" repeatCount="indefinite" values="1;0.35;1"/>
+  <rect x="905" y="201" width="160" height="48" rx="10" fill="url(#carbon)" stroke="#FF8000" stroke-width="2">
+    <animate attributeName="stroke-opacity" dur="2.8s" repeatCount="indefinite" values="1;0.4;1"/>
   </rect>
-  <text x="985" y="196" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#101418">BACKEND</text>
+  <text x="985" y="231" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#FF8000">BACKEND</text>
 </svg>
