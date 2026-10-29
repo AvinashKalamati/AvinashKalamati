@@ -1,16 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
-  <rect width="1200" height="330" fill="#0A0B0D"/>
-  <rect width="6" height="330" fill="#00E6C3"/>
-  <text x="48" y="58" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">ROLE</text>
-  <text x="210" y="58" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">Software Development Engineer · Quadrant Technologies · Redmond, WA</text>
-  <text x="48" y="106" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">FOCUS</text>
-  <text x="210" y="106" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">Backend services · distributed systems · AI / LLM infrastructure</text>
-  <text x="48" y="154" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">STACK</text>
-  <text x="210" y="154" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">Python · Java · PostgreSQL · AWS · Docker · Kubernetes · Jenkins</text>
-  <text x="48" y="202" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">OPEN SOURCE</text>
-  <text x="210" y="202" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">testcontainers-python · Azure AI Search demo · llama-agents · LangGraph</text>
-  <text x="48" y="250" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">EDUCATION</text>
-  <text x="210" y="250" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">M.S., Computer Science</text>
-  <text x="48" y="298" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#00E6C3">STATUS</text>
-  <text x="210" y="298" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#EDEFF2">Open to software engineering opportunities</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="396" viewBox="0 0 1200 396">
+  <rect x="8" y="8" width="1184" height="380" rx="16" fill="#0B0E11" stroke="#22303A" stroke-width="2"/>
+  <path d="M8 24 a16 16 0 0 1 16 -16 h1152 a16 16 0 0 1 16 16 v30 h-1184 z" fill="#11161B"/>
+  <line x1="8" y1="54" x2="1192" y2="54" stroke="#22303A" stroke-width="2"/>
+  <circle cx="38" cy="31" r="7" fill="#FF5F57"/>
+  <circle cx="64" cy="31" r="7" fill="#FEBC2E"/>
+  <circle cx="90" cy="31" r="7" fill="#28C840"/>
+  <text x="600" y="37" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="15" fill="#5C6670">avinash@seattle — zsh — 100×28</text>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#D7E0E8">
+    <text x="40" y="96"><tspan fill="#00E6C3">$</tspan> neofetch --user avinash</text>
+    <text x="40" y="127" font-weight="700">avinash@seattle</text>
+    <text x="40" y="158" fill="#5C6670">---------------</text>
+    <text x="40" y="189"><tspan fill="#00E6C3" font-weight="700">Role:</tspan> SDE @ Quadrant Technologies (client: Microsoft)</text>
+    <text x="40" y="220"><tspan fill="#00E6C3" font-weight="700">Focus:</tspan> Backend systems · AI agents · Distributed systems</text>
+    <text x="40" y="251"><tspan fill="#00E6C3" font-weight="700">Stack:</tspan> Python · Java · C# · TypeScript · Azure · AWS · K8s</text>
+    <text x="40" y="282"><tspan fill="#00E6C3" font-weight="700">OSS:</tspan> testcontainers · Azure demo · llama-agents · langgraph</text>
+    <text x="40" y="313"><tspan fill="#00E6C3" font-weight="700">Education:</tspan> M.S. Data Science, Clarkson University (GPA 3.8)</text>
+    <text x="40" y="344"><tspan fill="#00E6C3" font-weight="700">Status:</tspan> Open to software engineering roles</text>
+    <text x="40" y="375"><tspan fill="#00E6C3">$</tspan></text>
+  </g>
+  <rect x="58" y="360" width="10" height="18" fill="#00E6C3"/>
 </svg>
